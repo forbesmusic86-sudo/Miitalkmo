@@ -1,0 +1,14 @@
+# Build artifacts
+bak/
+build/
+
+# Object files
+*.d
+*.o
+*.x
+*.elf
+*.bin
+*.sym
+
+# Generated files
+source/main.hks
