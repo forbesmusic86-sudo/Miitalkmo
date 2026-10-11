@@ -1,0 +1,132 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Project specific
+# Audio/media files
+*.wav
+*.mp3
+*.ogg
+*.flac
+output.bin
+*.pcm
+audio_cache/
+
+# Nuance Vocalizer resources (if bundled)
+vocalizer_data/
+vocalizer_cache/
+voice_assets/
+
+# Emulator/Game files
+*.cxi
+*.3ds
+game_save/
+emulator_data/
+rom_backup/
+
+# Config with sensitive data
+config.ini
+.env
+.env.local
+secrets.json
+api_keys.txt
+
+# Temp files
+temp/
+tmp/
+*.tmp
+*.bak
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Build outputs
+*.o
+*.elf
+*.bin
+*.sym
+newcode
+loader
+
+# Memory dumps
+*.dump
+memory_cache/
+
+# Generated files
+out.js
+module.js
+*.wasm
+
+# Large files
+*.zip
+*.tar.gz
+*.7z
+
+# Node/Web assets (if using Node for build)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# API response caching
+api_cache/
+response_cache/
+
+# Text-to-speech synthesis data
+tts_output/
+synthesis_temp/
